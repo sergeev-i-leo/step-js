@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Test StepJS Device</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        border: none;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      /* avoid wrapping div getting bigger than img or svg */
+      img,
+      svg {
+        display: block;
+      }
+      html,
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      #app {
+        height: 100%;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div><button id="change-first-span">CHANGE FIRST SPAN</button></div>
+    <div><button id="change-span">CHANGE SPAN</button></div>
+    <div><button id="change-last-span">CHANGE LAST SPAN</button></div>
+    <div><button id="delete-span">DELETE SPAN</button></div>
+    <div><button id="change-first-a">CHANGE FIRST A</button></div>
+    <div><button id="change-a">CHANGE A</button></div>
+    <div><button id="change-last-a">CHANGE LAST A</button></div>
+    <div><button id="delete-a">DELETE A</button></div>
+    <div id="app"></div>
+  </body>
+</html>

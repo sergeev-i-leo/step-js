@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>StepJS</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        border: none;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      /* avoid wrapping div getting bigger than img or svg */
+      img,
+      svg {
+        display: block;
+      }
+      html,
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      body[data-bs-theme="dark"] .step-js-scroll-bar-track {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      body[data-bs-theme="dark"] .step-js-scroll-bar-thumb {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      #app {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0
+      }
+      .home-page-card {
+        width: 20rem;
+        height: 25rem;
+        margin: 1rem;
+      }
+    </style>
+  </head>
+  <body class="bg-body" data-bs-theme="dark" style="font-family:Andika,sans-serif;">
+    <div class="position-relative h-100 bg-body">
+      <!-- content -->
+      <div style="position:absolute;left:0;top:0;right:0;bottom:0;opacity:0;overflow:hidden;">
+        <div style="font-family:Andika,sans-serif">Andika</div>
+        <div style="font-family:'Shantell Sans',sans-serif">Shantell Sans</div>
+        <div style="font-family:'DM Mono',monospace">DM Mono</div>
+        <include src="./igor1624.github.io/home-page/home-page.html"></include>
+        <div id="about-page">
+          <include src="./igor1624.github.io/about-page/about-page.html"></include>
+        </div>
+      </div>
+      <!-- /content -->
+      <div id="main-loader-wrapper" class="bg-body" style="position:absolute;left:0;top:0;right:0;bottom:0;"></div>
+      <div id="app"></div>
+    </div>
+  </body>
+</html>

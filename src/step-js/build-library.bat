@@ -40,3 +40,8 @@ set location="C:\2025\e-crammers\web-crammer\client-app\src\step-js\widgets"
 call xcopy %location%\ /E /H /C /I /Y *.*
 cd ..
 
+mkdir documents
+cd documents
+set location="C:\2025\e-crammers\web-crammer\client-app\src\step-js\documents"
+call xcopy %location%\ /E /H /C /I /Y *.*
+cd ..

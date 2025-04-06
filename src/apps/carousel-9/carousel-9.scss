@@ -1,0 +1,92 @@
+.carousel-9-div {
+  position: relative;
+}
+
+.carousel-9-div .carousel-item[data-position="0"],
+.carousel-9-div .carousel-item[data-position="1"],
+.carousel-9-div .carousel-item[data-position="2"],
+.carousel-9-div .carousel-item[data-position="3"],
+.carousel-9-div .carousel-item[data-position="4"] {
+  display: block;
+  width: 320px;
+  transition: all 1s ease-in-out;
+}
+
+.carousel-9-div .carousel-item[data-position="0"] {
+  left: calc(640px - 320px - 240px);
+  transform: scale(0.5);
+}
+
+.carousel-9-div .carousel-item[data-position="1"] {
+  left: calc(640px - 320px);
+  transform: scale(0.75);
+}
+
+.carousel-9-div .carousel-item[data-position="2"] {
+  left: 640px;
+}
+
+.carousel-9-div .carousel-item[data-position="3"] {
+  left: calc(640px + 320px);
+  transform: scale(0.75);
+}
+
+.carousel-9-div .carousel-item[data-position="4"] {
+  left: calc(640px + 320px + 240px);
+  transform: scale(0.5);
+}
+
+.carousel-9-div .carousel-control-prev {
+  position: absolute;
+  left: 520px;
+  top: 0;
+  bottom: 0;
+}
+
+.carousel-9-div .carousel-control-next {
+  position: absolute;
+  right: 520px;
+  top: 0;
+  bottom: 0;
+}
+
+.carousel-9-div .carousel-control-prev span,
+.carousel-9-div .carousel-control-next span {
+  position: relative;
+}
+
+.carousel-9-div .carousel-control-prev span svg,
+.carousel-9-div .carousel-control-next span svg {
+  position: relative;
+}
+
+.carousel-9-div .carousel-control-prev span::before,
+.carousel-9-div .carousel-control-next span::before {
+  position: absolute;
+  content: "";
+  left: -1rem;
+  top: -1rem;
+  right: -1rem;
+  bottom: -1rem;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.carousel-9-div .carousel-control-prev span::after,
+.carousel-9-div .carousel-control-next span::after {
+  position: absolute;
+  content: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%27/%3e%3c/svg%3e");
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-9-div .carousel-control-next span::after {
+  position: absolute;
+  content: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e");
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,18 @@
+.components-page-tabbed-panel {
+}
+
+.components-page-tabbed-panel .step-js-tabbed-panel-tab-title {
+  color: var(--bs-orange);
+}
+
+.components-page-tabbed-panel .step-js-tabbed-panel-tab-title img {
+  display: none;
+}
+
+.components-page-tabbed-panel .step-js-tabbed-panel-tab-title.--selected {
+  color: var(--bs-dark-text-emphasis);
+}
+
+.components-page-tabbed-panel .step-js-tabbed-panel-tab-title.--selected img {
+  display: block;
+}

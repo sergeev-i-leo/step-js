@@ -1,0 +1,40 @@
+.sandbox-navbar-wrapper {
+  height: 6rem;
+}
+
+body[data-bs-theme=light] .sandbox-navbar-wrapper {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+body[data-bs-theme=dark] .sandbox-navbar-wrapper {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.sandbox-navbar-wrapper .navbar-toggler {
+  height: 3rem;
+  border-color: transparent;
+}
+
+body[data-bs-theme=light] .sandbox-navbar-wrapper .navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+body[data-bs-theme=dark] .sandbox-navbar-wrapper .navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.sandbox-navbar-wrapper .navbar-toggler svg {
+  fill: var(--bs-navbar-color);
+}
+
+body[data-bs-theme=light] .app-router-dropdown-menu {
+  background-color: #8F8F8F;
+}
+
+body[data-bs-theme=dark] .app-router-dropdown-menu {
+  background-color: #838587;
+}
+
+.app-router-dropdown-menu svg {
+  fill: var(--bs-body-color);
+}

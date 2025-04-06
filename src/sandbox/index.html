@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>StepJS : Sandbox</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        border: none;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      /* avoid wrapping div getting bigger than img or svg */
+      img,
+      svg {
+        display: block;
+      }
+      html,
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      #app {
+        position: relative;
+        height: 100%;
+      }
+      #app-splash-screen,
+      #app-router {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+      #app-tab,
+      #models-tab,
+      #templates-tab {
+        position: absolute;
+        left: 0;
+        top: 6rem;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body class="bg-body" style="width:100vw;height:100vh;" data-bs-theme="dark">
+    <div id="app">
+      <div id="app-router" class="bg-body"></div>
+      <div id="models-tab" class="bg-body"></div>
+      <div id="templates-tab" class="bg-body"></div>
+      <div id="app-tab" class="bg-body"></div>
+      <div id="app-splash-screen" class="bg-body">
+        <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+          <img src="/src/assets/images/step-js-2.svg" width="50%" alt="Step JS"/>
+          <div class="pt-3"></div>
+          <img src="/src/assets/images/sandbox.svg" width="25%" alt="Step JS"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

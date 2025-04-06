@@ -1,0 +1,30 @@
+.sidebar-1 .nav.--hidden {
+  display: none;
+}
+
+.sidebar-1 .dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.sidebar-1 ul li div {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 0;
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-1 .step-js-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-1 .step-js-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+}

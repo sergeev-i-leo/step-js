@@ -1,0 +1,21 @@
+.section-number-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section-number {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--bs-orange);
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-number span {
+  color: white;
+  font-size: 0.75rem;
+}

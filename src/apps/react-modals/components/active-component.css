@@ -1,0 +1,9 @@
+.active-component {
+  position: relative;
+  cursor: pointer;
+}
+
+.active-component[disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
