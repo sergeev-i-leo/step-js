@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "target": "es5",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": false,
+    "baseUrl": "./"
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}

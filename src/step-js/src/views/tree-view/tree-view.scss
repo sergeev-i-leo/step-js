@@ -1,0 +1,88 @@
+.step-js-tree-view {
+  height: 100%;
+}
+
+.step-js-tree-view-node {
+  cursor: pointer;
+}
+
+.step-js-tree-view-node.--collapsed .step-js-tree-view-node {
+  display: none;
+}
+
+.step-js-tree-view-node-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.step-js-tree-view-node.--selected > .step-js-tree-view-node-row {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.step-js-tree-view-node-row:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.step-js-tree-view-node-icons {
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: relative;
+  height: 2rem;
+}
+
+.step-js-tree-view-node-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2rem;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-js-tree-view-node-icon svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: #85888F;
+}
+
+.step-js-tree-view-node-terminal-icon svg {
+  width: 0.5rem;
+  height: 0.5rem;
+  fill: #85888F;
+}
+
+.step-js-tree-view-node-expanded-icon {
+  display: none;
+}
+
+.step-js-tree-view-node.--expanded > .step-js-tree-view-node-row > .step-js-tree-view-node-icons > .step-js-tree-view-node-expanded-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.step-js-tree-view-node-collapsed-icon {
+  display: none;
+}
+
+.step-js-tree-view-node.--collapsed > .step-js-tree-view-node-row > .step-js-tree-view-node-icons > .step-js-tree-view-node-collapsed-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.step-js-tree-view-node-terminal-icon {
+  display: none;
+}
+
+.step-js-tree-view-node.--terminal > .step-js-tree-view-node-row > .step-js-tree-view-node-icons > .step-js-tree-view-node-terminal-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.step-js-tree-view-node-contents {
+  flex-grow: 1;
+  position: relative;
+}

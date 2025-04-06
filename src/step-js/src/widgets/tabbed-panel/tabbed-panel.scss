@@ -1,0 +1,42 @@
+.step-js-tabbed-panel {
+  --tabs-flex-basis: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.step-js-tabbed-panel-tabs {
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: var(--tabs-flex-basis);
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.step-js-tabbed-panel-tab-title {
+  position: relative;
+  cursor: pointer;
+  padding: 0 8px;
+  font-family: inherit;
+  line-height: var(--tabs-flex-basis);
+}
+
+.step-js-tabbed-panel-tab-title.--selected {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.step-js-tabbed-panel-tabs-contents {
+  flex-grow: 1;
+  position: relative;
+}
+
+.step-js-tabbed-panel-tabs-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,69 @@
+.step-js-scrollable-panel {
+  position: relative;
+  overflow: hidden;
+  --step-js-scrollable-panel-scrollbar-size: 8px;
+}
+
+/* avoid scroll bars flickering */
+.step-js-scrollable-panel-viewport {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+.step-js-scrollable-panel {
+  &.-x-scrollbar {
+    .step-js-scrollable-panel-content-wrapper {
+      display: inline-block;
+    }
+  }
+
+  &.-y-scrollbar {
+    .step-js-scrollable-panel-content-wrapper {
+      display: block;
+    }
+  }
+
+  &.-xy-scrollbars {
+    .step-js-scrollable-panel-content-wrapper {
+      display: inline-block;
+    }
+  }
+}
+
+.step-js-scrollbar-track {
+  display: block;
+  position: absolute;
+  visibility: inherit;
+  background-color: transparent;
+}
+
+.step-js-scrollable-panel.-x-scrollbar > .step-js-scrollbar-track {
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: var(--step-js-scrollable-panel-scrollbar-size);
+}
+
+.step-js-scrollable-panel.-y-scrollbar > .step-js-scrollbar-track {
+  right: 0;
+  top: 0;
+  width: var(--step-js-scrollable-panel-scrollbar-size);
+  bottom: 0;
+}
+
+.step-js-scrollbar-thumb {
+  cursor: pointer;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.25);
+}

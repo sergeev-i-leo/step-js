@@ -1,0 +1,33 @@
+.step-js-dropdown {
+  display: inline-block;
+}
+
+.step-js-dropdown-toggle {
+
+}
+
+.step-js-dropdown-menu-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.step-js-dropdown-menu {
+  position: absolute;
+  display: inline-block;
+}
+
+.step-js-dropdown-menu-item {
+
+}
+
+.step-js-dropdown-divider {
+
+}
+
+.step-js-dropdown-menu-wrapper.--open {
+  display: block;
+}
