@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f85348b2-acc4-406c-9ac5-3f3335741c2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apps/scrollable-panel-1/scrollable-panel-1-wrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/scrollable-panel-1/scrollable-panel-1-wrapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/about-page/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/about-page/about-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/about-page/about-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/about-page/about-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/app-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/app-router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/apps-page/apps-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/apps-page/apps-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/components-page/components-page-tabbed-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/components-page/components-page-tabbed-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/components-page/components-page-tabbed-panel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/components-page/components-page-tabbed-panel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/components-page/components-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/components-page/components-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/home-page/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/home-page/home-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/home-page/home-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/home-page/home-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/igor1624.github.io/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandbox/app-router/app-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandbox/app-router/app-router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandbox/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandbox/index.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2vMhUoRNV3fMOY7do52IUkHnm67" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ts.external.directory.path" value="C:\2025\sergeev-i-leo-step-js\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="http://localhost:3000" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f85348b2-acc4-406c-9ac5-3f3335741c2a" name="Default Changelist" comment="" />
+      <created>1743960868637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743960868637</updated>
+      <workItem from="1743960872761" duration="500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
