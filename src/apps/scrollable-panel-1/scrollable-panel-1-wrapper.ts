@@ -24,7 +24,7 @@ class ScrollablePanel1Wrapper extends DIV {
     panel.setScrollBarsVisibilityPolicy("when-necessary");
     //panel.setScrollBarsVisibilityPolicy("always");
     //panel.setScrollBarsVisibilityPolicy("never");
-    panel.setScrollBarSize(32);
+    panel.setScrollBarSize("32px");
 
     for (let i0 = 0; i0 < 256; i0++) {
       let div = new DIV(panel);

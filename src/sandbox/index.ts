@@ -17,7 +17,6 @@ import AppRouter from "../sandbox/app-router/app-router";
 import ModelsTab from "../sandbox/models-tab/models-tab";
 import TemplatesTab from "../sandbox/templates-tab/templates-tab";
 import TreeView1Wrapper from "../apps/tree-view-1/tree-view-1-wrapper";
-import LessonsApp from "../e-crammer/lessons-app/lessons-app";
 import Carousel1Wrapper from "../apps/carousel-1/carousel-1-wrapper";
 import Carousel9Wrapper from "../apps/carousel-9/carousel-9-wrapper";
 import {Accordion1Div} from "../apps/accordion-1/accordion-1-div";

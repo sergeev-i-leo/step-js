@@ -3,14 +3,13 @@ import {
   IMG,
   LI,
   Router,
-  SPAN
+  SPAN, Utils
 } from "@step-js-core/index";
 import {
   ContainerFluid, Dropdown, DropdownWidget, Nav,
   Navbar,
   NavbarMD
 } from "@step-js-bootstrap-widgets/index";
-import Utils from "@step-js-core/utils";
 import ThemesSwitch from "./themes-switch";
 import "./app-router.scss";
 
